@@ -55,3 +55,6 @@ SELECT TOP 5 pizza_name, SUM(quantity) AS Total_Quantity FROM PizzaSales
 GROUP BY pizza_name
 ORDER BY Total_Quantity ASC
  
+ SELECT TOP 5 pizza_name, SUM(quantity) AS Total_Quantity FROM PizzaSales
+GROUP BY pizza_name
+ORDER BY Total_Quantity DESC
